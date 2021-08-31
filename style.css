@@ -1,0 +1,102 @@
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    padding: 5vh;
+    background-color: #F6F6F6;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+
+
+  div#question,
+  div#comment{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 5px 5px grey;
+    z-index: 9999999;
+  }
+
+
+  div#comments {
+    box-shadow: 10px 5px 5px lightgrey;
+    padding: 25px;
+    overflow: scroll;
+    height: 340px;
+}
+
+  div#container {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.commentClass {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px grey;
+  opacity: 0.8;
+}
+
+button#submitButton,
+button.editButton,
+button.deleteButton,
+button#submitEditButton {
+  border: none;
+  background-color: transparent;
+  color: #1A5276;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button.editButton,
+button.deleteButton {
+  float: right;
+  top: 0;
+  margin-top: -60px;
+  font-size: 16px;
+}
+button#submitEditButton{
+  font-size: 16px;
+}
+
+button.editButton {
+  padding-right: 75px;
+}
+
+input#DisplayName,
+input#Comment,
+input#editComment {
+  border: #808B96 1px solid;
+  font-size: 14px;
+  color: black;
+  font-weight: 300;
+  height: 25px;
+}
+input#Comment,
+.editComment {
+  width: 130vh;
+}
+.imgClass{
+  width: 30px;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.EditDiv {
+  padding: 10px;
+}
+.noDisplay {
+  display: none;
+}
+span.questions {
+  font-size: xx-large;
+  display: table;
+  padding-left: 60px;
+}
+
+div#output {
+  padding-top: 10px;
+  font-size: 12px;
+}
